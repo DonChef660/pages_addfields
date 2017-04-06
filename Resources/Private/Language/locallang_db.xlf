@@ -7,11 +7,11 @@
             <trans-unit id="pages.palette_title">
                 <source>My custom fields</source>
             </trans-unit>
-            <trans-unit id="pages.tx_pagesaddfields_customtext">
+            <trans-unit id="pages.tx_pagesaddfields_customtitle">
                 <source>Custom text field</source>
             </trans-unit>
-            <trans-unit id="pages.tx_pagesaddfields_customcheckbox">
-                <source>Custom checkbox</source>
+            <trans-unit id="pages.tx_pagesaddfields_customsubtitle">
+                <source>Custom subtitle</source>
             </trans-unit>
         </body>
     </file>
