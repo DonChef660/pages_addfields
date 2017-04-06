@@ -8,13 +8,13 @@
                 <source>My custom fields</source>
                 <target>Meine benutzerdefinierten Felder</target>
             </trans-unit>
-            <trans-unit id="pages.tx_pagesaddfields_customtext">
+            <trans-unit id="pages.tx_pagesaddfields_customtitle">
                 <source>Custom text field</source>
                 <target>Benutzerdefiniertes Textfeld</target>
             </trans-unit>
-            <trans-unit id="pages.tx_pagesaddfields_customcheckbox">
-                <source>Custom checkbox</source>
-                <target>Benutzerdefinierte Checkbox</target>
+            <trans-unit id="pages.tx_pagesaddfields_customsubtitle">
+                <source>Custom text field subtitle</source>
+                <target>Benutzerdefiniertes Textfeld untertitel</target>
             </trans-unit>
         </body>
     </file>
