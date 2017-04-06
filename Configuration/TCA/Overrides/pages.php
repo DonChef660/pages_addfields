@@ -5,22 +5,22 @@ if (!defined('TYPO3_MODE')) {
 
 // Configure new fields:
 $fields = array(
-	'tx_pagesaddfields_customtext' => array(
-		'label' => 'LLL:EXT:pages_addfields/Resources/Private/Language/locallang_db.xlf:pages.tx_pagesaddfields_customtext',
+	'tx_pagesaddfields_customtitle' => array(
+		'label' => 'LLL:EXT:pages_addfields/Resources/Private/Language/locallang_db.xlf:pages.tx_pagesaddfields_customtitle',
 		'exclude' => 1,
 		'config' => array(
 			'type' => 'input',
 			'max' => 255
 		),
 	),
-	'tx_pagesaddfields_customcheckbox' => array(
+	'tx_pagesaddfields_customsubtitle' => array(
+		'label' => 'LLL:EXT:pages_addfields/Resources/Private/Language/locallang_db.xlf:pages.tx_pagesaddfields_customsubtitle',
 		'exclude' => 1,
-		'label' => 'LLL:EXT:pages_addfields/Resources/Private/Language/locallang_db.xlf:pages.tx_pagesaddfields_customcheckbox',
 		'config' => array(
-			'type' => 'check',
-			'default' => 0
-		)
-	)
+			'type' => 'input',
+			'max' => 255
+		),
+	),
 );
 
 // Add new fields to pages:
@@ -36,5 +36,9 @@ $fields = array(
 
 // Add the new palette:
 $GLOBALS['TCA']['pages']['palettes']['tx_pagesaddfields'] = array(
-	'showitem' => 'tx_pagesaddfields_customcheckbox,tx_pagesaddfields_customtext'
+	'showitem' => 'tx_pagesaddfields_customcheckbox,tx_pagesaddfields_customtitle'
+	
+);
+$GLOBALS['TCA']['pages']['palettes']['tx_pagesaddfields'] = array(
+	'showitem' => 'tx_pagesaddfields_customcheckbox,tx_pagesaddfields_customsubtitle'
 );
