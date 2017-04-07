@@ -6,15 +6,15 @@
         <body>
             <trans-unit id="pages.palette_title">
                 <source>My custom fields</source>
-                <target>Meine benutzerdefinierten Felder</target>
+                <target>Header Text</target>
             </trans-unit>
             <trans-unit id="pages.tx_pagesaddfields_customtitle">
                 <source>Custom text field</source>
-                <target>Benutzerdefiniertes Textfeld</target>
+                <target>Titel</target>
             </trans-unit>
             <trans-unit id="pages.tx_pagesaddfields_customsubtitle">
                 <source>Custom text field subtitle</source>
-                <target>Benutzerdefiniertes Textfeld untertitel</target>
+                <target>Untertitel</target>
             </trans-unit>
         </body>
     </file>

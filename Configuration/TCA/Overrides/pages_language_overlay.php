@@ -12,7 +12,7 @@ $fields = array(
 			'type' => 'input',
 			'max' => 255
 		),
-	)
+	),
 	'tx_pagesaddfields_customsubtitle' => array(
 		'label' => 'LLL:EXT:pages_addfields/Resources/Private/Language/locallang_db.xlf:pages.tx_pagesaddfields_customsubtitle',
 		'exclude' => 1,
@@ -20,7 +20,7 @@ $fields = array(
 			'type' => 'input',
 			'max' => 255
 		),
-	)
+	),
 	// In this example, we assume that the custom checkbox is only used in the original language. So, no need to configure it here.
 );
 
@@ -37,8 +37,6 @@ $fields = array(
 
 // Add the new palette:
 $GLOBALS['TCA']['pages_language_overlay']['palettes']['tx_pagesaddfields'] = array(
-	'showitem' => 'tx_pagesaddfields_customtitle'
+	'showitem' => 'tx_pagesaddfields_customtitle,tx_pagesaddfields_customsubtitle'
 );
-$GLOBALS['TCA']['pages_language_overlay']['palettes']['tx_pagesaddfields'] = array(
-	'showitem' => 'tx_pagesaddfields_customsubtitle'
-);
+

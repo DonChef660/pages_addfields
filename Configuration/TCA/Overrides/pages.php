@@ -36,9 +36,6 @@ $fields = array(
 
 // Add the new palette:
 $GLOBALS['TCA']['pages']['palettes']['tx_pagesaddfields'] = array(
-	'showitem' => 'tx_pagesaddfields_customcheckbox,tx_pagesaddfields_customtitle'
+	'showitem' => 'tx_pagesaddfields_customtitle,tx_pagesaddfields_customsubtitle'
 	
-);
-$GLOBALS['TCA']['pages']['palettes']['tx_pagesaddfields'] = array(
-	'showitem' => 'tx_pagesaddfields_customcheckbox,tx_pagesaddfields_customsubtitle'
 );
