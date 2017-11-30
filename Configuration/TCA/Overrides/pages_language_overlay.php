@@ -6,11 +6,12 @@ if (!defined('TYPO3_MODE')) {
 // Configure new field:
 $fields = [
 	'tx_pagesaddfields_customtitle' => [
-		'label' => 'LLL:EXT:pages_addfields/Resources/Private/Language/locallang_db.xlf:pages.tx_pagesaddfields_customtitle',
+		'label' => 'Claim',
 		'exclude' => 1,
 		'config' => [
 			'type' => 'text',
-			'rows' => 42
+			'cols' => 40,
+        	'rows' => 15
 		],
 	],
 	'tx_pagesaddfields_ausrichtunghorizontal' => [
@@ -49,8 +50,8 @@ $fields = [
 		'config' => [
 			'type' => 'select',
             'items' =>  [
-            	['Schwarz', 'claim-white'],
-            	['Weiss', 'claim-black'],
+            	['Schwarz', 'claim-black'],
+            	['Weiss', 'claim-white'],
             ],
             'size' => 1,
     		'minitems' => 0,

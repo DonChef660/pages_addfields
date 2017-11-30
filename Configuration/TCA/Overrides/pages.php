@@ -10,7 +10,8 @@ $fields = [
 		'exclude' => 1,
 		'config' => [
 			'type' => 'text',
-			'rows' => 42
+			'cols' => 40,
+        	'rows' => 15
 		],
 	],
 	'tx_pagesaddfields_ausrichtunghorizontal' => [
